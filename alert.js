@@ -6,6 +6,8 @@ alert('hello i am javascript!');
 comment
 */
 
+// VARIABLES
+// let
 let admin;
 let user;
 
@@ -19,6 +21,7 @@ let ourPlanetName = 'earth';
 
 let currentUserName = 'uaaeu';
 
-// constants
+// constant
 const BIRTHDATE = '13.12.1988';
 // const age = someCode(BIRTHDATE);
+
