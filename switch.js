@@ -2,21 +2,21 @@
 
 let browser;
 
-// switch (browser) {
-//   case 'Edge':
-//     alert( "Edge browser kullanıyorsun" );
-//     break;
+switch (browser) {
+  case 'Edge':
+    alert( "Edge browser kullanıyorsun" );
+    break;
 
-//   case 'Chrome':
-//   case 'Firefox':
-//   case 'Safari':
-//   case 'Opera':
-//     alert( 'Tamam bunları destekliyoruz.' );
-//     break;
+  case 'Chrome':
+  case 'Firefox':
+  case 'Safari':
+  case 'Opera':
+    alert( 'Tamam bunları destekliyoruz.' );
+    break;
 
-//   default:
-//     alert( 'Umarım sayfanız güzel görünüyordur' );
-// }
+  default:
+    alert( 'Umarım sayfanız güzel görünüyordur' );
+}
 
 
 if (browser == 'Edge') {
@@ -32,16 +32,16 @@ if (browser == 'Edge') {
 
 let a = +prompt('a?', '');
 
-// if (a == 0) {
-//   alert( 0 );
-// }
-// if (a == 1) {
-//   alert( 1 );
-// }
+if (a == 0) {
+  alert( 0 );
+}
+if (a == 1) {
+  alert( 1 );
+}
 
-// if (a == 2 || a == 3) {
-//   alert( '2,3' );
-// }
+if (a == 2 || a == 3) {
+  alert( '2,3' );
+}
 
 switch(a) {
   case 0:
