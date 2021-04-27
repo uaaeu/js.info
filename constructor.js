@@ -1,30 +1,30 @@
 'use strict';
 
-// let obj = {};
+let obj = {};
 
-// function A() { return obj; }
-// function B() { return obj; }
+function A() { return obj; }
+function B() { return obj; }
 
-// alert ( new A() == new B() );
+alert ( new A() == new B() );
 
-// function Calculator() {
-//   this.read = function() {
-//     this.a = +prompt('a?', '');
-//     this.b = +prompt('b?', '');
-//   };
-//   this.sum = function() {
-//     return this.a + this.b;
-//   };
-//   this.mul = function() {
-//     return this.a * this.b;
-//   };
-// }
+function Calculator() {
+  this.read = function() {
+    this.a = +prompt('a?', '');
+    this.b = +prompt('b?', '');
+  };
+  this.sum = function() {
+    return this.a + this.b;
+  };
+  this.mul = function() {
+    return this.a * this.b;
+  };
+}
 
-// let calculator = new Calculator();
-// calculator.read();
+let calculator = new Calculator();
+calculator.read();
 
-// alert( 'sum=' + calculator.sum() );
-// alert( 'mul=' + calculator.mul() );
+alert( 'sum=' + calculator.sum() );
+alert( 'mul=' + calculator.mul() );
 
 function Accumulator(startingValue) {
   this.value = startingValue;
