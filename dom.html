@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div>Users:</div>
+    <ul>
+      <li>Musa</li>
+      <li>Sena</li>
+    </ul>
+
+    <script>
+      let div = document.body.firstElementChild;
+      let ul = div.nextElementSibling;
+      let lastLi = ul.lastElementChild;
+      alert(div);
+      alert(ul);
+      alert(lastLi);
+
+      // searching elements dom
+      // the table with 'id="age-table"'
+      let table = document.getElementById('age-table');
+
+      // all label elements inside that table
+      let label = table.getElementsByTagName('label');
+      document.querySelectorAll('#age-table label');
+
+      // the first td in that table
+      let firstTd = table.getElementsByTagName('td')[0];
+      table.rows[0].cells[0];
+      table.querySelector('td')
+
+      // the form with name='search'
+      let form = document.getElementsByName('search')[0];
+      document.querySelector('form[name="search"]');
+
+      // the first input in that form
+      let firstInput = form.getElementsByTagName('input')[0];
+      form.querySelector('form');
+
+      //the last input from that form
+      let lastInput = form.getElementsByTagName('input')[-1];
+      let inputs = form.querySelectorAll('input');
+      inputs[input.length - 1];
+
+    </script>
+  </body>
+</html>
